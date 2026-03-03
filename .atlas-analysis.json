@@ -1,0 +1,91 @@
+{
+  "projectType": "saas",
+  "projectName": "Discord Bot",
+  "projectDescription": "A multi-purpose Discord bot with music playback, Minecraft server management, AI chat, and Lost Ark integration",
+  "theme": "aspen",
+  "primaryColor": "#5865F2",
+  "lightColor": "#7289DA",
+  "darkColor": "#4752C4",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/music-player",
+              "features/minecraft-management",
+              "features/ai-chat",
+              "features/lostark-integration"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/configuration",
+              "deployment/docker",
+              "deployment/production"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/architecture",
+              "development/project-structure",
+              "development/creating-commands"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Commands",
+        "groups": [
+          {
+            "group": "Command Reference",
+            "pages": [
+              "commands/overview",
+              "commands/music",
+              "commands/minecraft",
+              "commands/ai",
+              "commands/lostark",
+              "commands/utility"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "YouTube music playback with Lavalink integration",
+    "Azure VM-based Minecraft server control",
+    "AI-powered chat interactions",
+    "Lost Ark character and roster queries",
+    "Role-based access control",
+    "Docker deployment support"
+  ],
+  "publicApiSurface": [
+    "/play - Play music from YouTube",
+    "/pause - Pause current playback",
+    "/skip - Skip to next track",
+    "/queue - Display current queue",
+    "/shuffle - Shuffle the queue",
+    "/disconnect - Disconnect from voice channel",
+    "/start - Start Minecraft server",
+    "/stop - Stop Minecraft server",
+    "/chat - Chat with AI",
+    "/character - Query Lost Ark character",
+    "/roster - View Lost Ark roster",
+    "/ping - Check bot latency",
+    "/say - Broadcast message",
+    "/api - Test API endpoint"
+  ]
+}
